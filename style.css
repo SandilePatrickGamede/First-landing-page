@@ -49,11 +49,26 @@ button{
   background-color: #3882f6;
   font-weight: 900;
   padding: 5px 25px;
+  width: 100px;
+  height: 40px;
+}
+
+div.secondary{
+  display:flex;
+  ;
+  ;
+  outline: 2px solid red;
 }
 img.rocket{
+  display: flex;
+  align-items: flex-start ;
   width: 300px;
   height:200px;
+  outline: 2px solid red;
 }
-div.secondary{
-  display: 
+h2{
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
 }
