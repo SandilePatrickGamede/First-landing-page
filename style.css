@@ -38,7 +38,6 @@ ul{
   justify-content: space-evenly;
   gap:25px;
   list-style-type: none;
-  align-items: flex-start;
 }
 .link{
   text-decoration: none;
@@ -74,4 +73,5 @@ h2{
 .tertiary{
   display: flex;
   justify-content: space-around;
+  padding: 0 150px;
 }
