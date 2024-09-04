@@ -10,6 +10,10 @@ body{
   background-color:#1f2937;
   padding: 15px 150px;
 }
+.footer{
+  color: #F9FAF8;
+  text-align: center;
+}
 
   p,a.link {
     font-size: 18px;
@@ -48,6 +52,8 @@ button {
   padding: 5px 25px;
   width: 100px;
   height: 40px;
+  border-radius: 10px;
+  text-wrap: nowrap;
 }
 
 div.secondary {
@@ -80,21 +86,21 @@ h2 {
   display: flex;
   text-wrap: wrap;
   text-align: center;
-  width: 100px;
+  width: 150px;
 }
 
 img {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   display: flex;
-  border:2px solid #3882f6;
+  border:5px solid #3882f6;
   border-radius: 10px;
 }
 
 .inspiration {
   background-color: #e5e7eb;
   margin: 100px 0;
-  padding: 100px 150px;
+  padding: 100px 160px;
 }
 
 .quote {
@@ -104,8 +110,24 @@ img {
   color: #1f2937;
 }
 
-.Thor{
+.Thor {
   font-weight: 900;
   font-style: normal;
   text-align: end;
+}
+
+.ad {
+  background-color: #3882f6;
+  color: #E5E7EB;
+  padding: 50px 160px;
+  margin: 150px;
+  border-radius: 10px;
+  font-size: 18px;
+  display: flex;
+}
+
+.ad button {
+  border: 3px solid #F9FAF8;
+  display: flex;
+  align-items: center;
 }
