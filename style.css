@@ -96,3 +96,16 @@ img {
   margin: 100px 0;
   padding: 100px 150px;
 }
+
+.quote {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.Thor{
+  font-weight: 900;
+  font-style: normal;
+  text-align: end;
+}
