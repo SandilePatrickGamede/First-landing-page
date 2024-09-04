@@ -1,16 +1,15 @@
 *{
-  font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
+}
+
+body{
+  font-family: Roboto, sans-serif;
 }
 
 .hero, .footer{
   background-color:#1f2937;
   padding: 15px 150px;
 }
-img {
-    width: 100px;
-    height: 100px;
-  }
 
   p,a.link {
     font-size: 18px;
@@ -18,31 +17,31 @@ img {
     font-weight:100;
    }
    
-h1,.logo{
+h1,.logo {
   font-size: 48px;
   color: #F9FAF8;
   font-weight:900;
 }
 
 
-.header{
+.header {
   display: flex;
   justify-content: space-between;
 }
 
-.header.logo{
+.header.logo {
   font-size: 24px;
 }
-ul{
+ul {
   display: flex;
   justify-content: space-evenly;
   gap:25px;
   list-style-type: none;
 }
-.link{
+.link {
   text-decoration: none;
 }
-button{
+button {
   color:#E5E7EB;
   background-color: #3882f6;
   font-weight: 900;
@@ -51,27 +50,43 @@ button{
   height: 40px;
 }
 
-div.secondary{
+div.secondary {
   display:flex;
   ;
   ;
   outline: 2px solid red;
 }
-img.rocket{
+
+img.rocket {
   display: flex;
   align-items: flex-start ;
   width: 300px;
   height:200px;
   outline: 2px solid red;
 }
-h2{
+h2 {
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
   text-align: center;
 }
-.tertiary{
+.tertiary {
   display: flex;
-  justify-content: space-around;
-  padding: 0 150px;
+  justify-content: center;
+  gap: 60px;
+}
+
+.text {
+  display: flex;
+  text-wrap: wrap;
+  text-align: center;
+  width: 100px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  border:2px solid #3882f6;
+  border-radius: 10px;
 }
